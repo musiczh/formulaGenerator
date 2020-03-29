@@ -1,3 +1,5 @@
+package entity;
+
 public class FormulaEntity {
     private String formula;
     private String answer;

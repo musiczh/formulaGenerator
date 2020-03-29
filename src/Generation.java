@@ -8,6 +8,9 @@ import java.util.regex.Pattern;
  */
 public class Generation implements GenerateInter {
 
+    /**
+     * 唯一的公共方法；返回一个随机算式String对象
+     */
     @Override
     public String getFormula(int bound){
         int operatorNum = getNotZeroIntRandom(3);
@@ -22,8 +25,6 @@ public class Generation implements GenerateInter {
         addBrackets(stringBuilder,operatorNum);
         return stringBuilder.toString();
     }
-
-
 
     private void addNum(StringBuilder stringBuilder, int bound){
         int numType = getNotZeroIntRandom(3);
