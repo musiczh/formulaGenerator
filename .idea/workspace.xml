@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe69ef49-8bcd-4dcd-8d99-c8509abaac1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FormulaEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,33 +77,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585475734958</updated>
-      <workItem from="1585475737583" duration="6120000" />
+      <workItem from="1585475737583" duration="8863000" />
     </task>
+    <task id="LOCAL-00001" summary="增加生成式子模块">
+      <created>1585482771800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585482771801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加生成式子模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加生成式子模块" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser" timestamp="1585476818130">
+    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser" timestamp="1585485605717">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1585476818130" />
-    <state width="618" height="107" key="GridCell.Tab.0.bottom" timestamp="1585482655246">
+    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1585485605717" />
+    <state x="233" y="0" key="CommitChangelistDialog2" timestamp="1585482768606">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="618" height="107" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585482655246" />
-    <state width="618" height="107" key="GridCell.Tab.0.center" timestamp="1585482655246">
+    <state x="233" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1585482768606" />
+    <state width="618" height="340" key="GridCell.Tab.0.bottom" timestamp="1585484486627">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="618" height="107" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585482655246" />
-    <state width="618" height="107" key="GridCell.Tab.0.left" timestamp="1585482655246">
+    <state width="618" height="340" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1585484486627" />
+    <state width="618" height="340" key="GridCell.Tab.0.center" timestamp="1585484486626">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="618" height="107" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585482655246" />
-    <state width="618" height="107" key="GridCell.Tab.0.right" timestamp="1585482655246">
+    <state width="618" height="340" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1585484486626" />
+    <state width="618" height="340" key="GridCell.Tab.0.left" timestamp="1585484486626">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="618" height="107" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585482655246" />
+    <state width="618" height="340" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1585484486626" />
+    <state width="618" height="340" key="GridCell.Tab.0.right" timestamp="1585484486626">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="618" height="340" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1585484486626" />
   </component>
 </project>
