@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import util.FormulaManager;
 
 
 /**
@@ -31,11 +32,13 @@ public class IOManager implements IOInter {
             for (int i=1;iterable.hasNext();i++){
                 FormulaEntity formulaEntity = iterable.next();
 
-                bufferedWriterE.write(i+". "+formulaEntity.getFormula());
-                bufferedWriterE.newLine();
+                bufferedWriterE.write(i+". "+formulaEntity.getFormula().replaceAll("/1 "," ")+" =");
+                bufferedWriterA.write(i+". "+FormulaManager.getSimpleNum(formulaEntity.getAnswer()) );
 
-                bufferedWriterA.write(i+". "+formulaEntity.getAnswer());
-                bufferedWriterA.newLine();
+                if (iterable.hasNext()){
+                    bufferedWriterE.newLine();
+                    bufferedWriterA.newLine();
+                }
             }
 
             //写入数据并关闭流
